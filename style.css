@@ -1,0 +1,148 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.wrapper {
+    border: 5px solid red;
+    height: 1100px;
+
+
+}
+
+#header {
+    background-color: blueviolet;
+    padding: 8px;
+
+}
+
+#header h1:hover {
+    color: beige;
+}
+
+#menu {
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#menu li {
+    display: inline;
+    padding: 5px 10px;
+}
+
+#content {
+    text-align: center;
+}
+
+#content p {
+    width: 600px;
+    padding: 10px 350px;
+}
+
+#content img {
+    width: 500px;
+    position: relative;
+    bottom: 20px;
+    border: 2px solid red;
+}
+
+#content img:hover {
+    opacity: 0.5;
+}
+
+#content a {
+    position: relative;
+    bottom: 20px;
+}
+
+#sidebar {
+    background-color: orange;
+    float: right;
+    width: 335px;
+    height: 800px;
+    padding: 0px 10px 60px 0px;
+    position: relative;
+    bottom: 880px;
+}
+
+#sidebar h2 {
+    text-align: center;
+}
+
+#sidebar p {
+    padding: 0px 0px 0px 15px;
+}
+
+
+#sidebar {
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#side-content {
+    background-color: palevioletred;
+    float: left;
+    width: 340px;
+    height: 800px;
+    padding: 0px 0px 60px 0px;
+    position: relative;
+    bottom: 880px;
+
+}
+
+#side-content {
+    line-height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#side-content h3 {
+    text-align: center;
+}
+
+
+
+.bottom {
+    background-color: palegreen;
+    clear: both;
+    position: relative;
+    bottom: 880px;
+    padding: 0px 0px 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon i {
+    float: right;
+    border: 1px solid black;
+    width: 30px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    background-color: slateblue;
+}
+
+.insta i {
+    float: right;
+    border: 1px solid black;
+    width: 30px;
+    position: relative;
+    right: 20px;
+    bottom: 30px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    background-color: palevioletred;
+}
+
+.insta:hover {
+    opacity: 0.5;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
